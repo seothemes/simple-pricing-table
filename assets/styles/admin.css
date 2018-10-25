@@ -1,0 +1,55 @@
+.cmb-row .cmb-row .cmb-row {
+	border: 0;
+	padding: 0;
+}
+
+.cmb-row .cmb-row .cmb-row .cmb-th,
+.cmb-row .cmb-row .cmb-row .cmb-td {
+	width: 100%;
+}
+
+.cmb-row .cmb-row .cmb-type-checkbox {
+	display: flex;
+	align-items: center;
+}
+
+.cmb-row .cmb-row .cmb-type-checkbox .cmb-td {
+	order: -1;
+}
+
+.cmb-row .cmb-row .cmb-type-checkbox .cmb-th,
+.cmb-row .cmb-row .cmb-type-checkbox .cmb-td {
+	width: auto;
+}
+
+.cmb2-wrap input.cmb2-text-medium {
+	width: 100%;
+}
+
+.cmb-row .cmb-remove-field-row {
+	margin: 1em 0;
+	display: block;
+}
+
+.cmb2-wrap .cmb-row.cmb-repeat .cmb2-metabox-description {
+	padding: 0;
+	display: none;
+}
+
+@media (min-width: 1152px) {
+
+	.cmb-repeatable-group {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.cmb-repeatable-group .cmb-row {
+		width: 100%;
+	}
+
+	.cmb-repeatable-group .cmb-repeatable-grouping {
+		width: 45%;
+		margin-bottom: 2.25%;
+	}
+}
